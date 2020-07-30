@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/tarot-universe-react-version/static/css/main.5f361e03.chunk.css",
-    "main.js": "/tarot-universe-react-version/static/js/main.536412e8.chunk.js",
-    "main.js.map": "/tarot-universe-react-version/static/js/main.536412e8.chunk.js.map",
+    "main.css": "/tarot-universe-react-version/static/css/main.cd6a07d2.chunk.css",
+    "main.js": "/tarot-universe-react-version/static/js/main.15009cba.chunk.js",
+    "main.js.map": "/tarot-universe-react-version/static/js/main.15009cba.chunk.js.map",
     "runtime-main.js": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js",
     "runtime-main.js.map": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js.map",
-    "static/js/2.4646e72e.chunk.js": "/tarot-universe-react-version/static/js/2.4646e72e.chunk.js",
-    "static/js/2.4646e72e.chunk.js.map": "/tarot-universe-react-version/static/js/2.4646e72e.chunk.js.map",
+    "static/js/2.a190d3c1.chunk.js": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js",
+    "static/js/2.a190d3c1.chunk.js.map": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js.map",
     "index.html": "/tarot-universe-react-version/index.html",
-    "precache-manifest.fa3b22bff19fc752ec9240e4ff6ef1e7.js": "/tarot-universe-react-version/precache-manifest.fa3b22bff19fc752ec9240e4ff6ef1e7.js",
+    "precache-manifest.ac2c548dfdc3d1b1c9a736307db532c4.js": "/tarot-universe-react-version/precache-manifest.ac2c548dfdc3d1b1c9a736307db532c4.js",
     "service-worker.js": "/tarot-universe-react-version/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/tarot-universe-react-version/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4646e72e.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.4646e72e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/tarot-universe-react-version/static/media/logo.5d5d9eef.svg"
+    "static/css/main.cd6a07d2.chunk.css.map": "/tarot-universe-react-version/static/css/main.cd6a07d2.chunk.css.map",
+    "static/js/2.a190d3c1.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f73fcd31.js",
-    "static/js/2.4646e72e.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.536412e8.chunk.js"
+    "static/js/2.a190d3c1.chunk.js",
+    "static/css/main.cd6a07d2.chunk.css",
+    "static/js/main.15009cba.chunk.js"
   ]
 }
