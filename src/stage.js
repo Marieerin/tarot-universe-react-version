@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Stage3 from './stage3'
 
-class extends Component () {
+class Stage extends Component () {
     constructor() {
         super();
         this.state = {
