@@ -105,7 +105,7 @@ header span {
     height: 160px;
     border-radius: 127px / 53px;
 
-    background: linear-gradient(#e48825, #e78e0e, #6c3101);
+    background: linear-gradient(#e48825, #e78e0e, #6c3101, #0e0e460a);
 }
 .candle:before {
     width: 87%;

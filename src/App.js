@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './Header';
-import Candle from './candle'
+import Candle from './candle';
+import Stage from './stage'
 
 class App extends Component {
   constructor() {
     super();
     this.state= {
-
+      act: 3,
     }
   }
+  
   render() {
     return (
       <div className="App">
@@ -21,29 +23,27 @@ class App extends Component {
         <div className="stage">
           <span>This is the stage</span>
         </div>
-        {/* <StageOne />
-        <StageTwo />
-        <StageThree /> */}
-        <Candle />
+        <Stage />
+
         {/* <div class="stage stage1">
           <span>stage1: Hey heres the description</span> */}
-          {/* <!-- intro & first descripion --> */}
-          {/* <!-- header big --> */}
-          {/* <!-- start button --> */}
+        {/* <!-- intro & first descripion --> */}
+        {/* <!-- header big --> */}
+        {/* <!-- start button --> */}
         {/* </div> */}
         {/* <div class="stage stage2">
           <span>
             stage2: Set the scene here's a little blurb that helps you get into
             the right mindset and think about what you're looking for
           </span> */}
-          {/* <!-- header smaller -->
+        {/* <!-- header smaller -->
             <!-- set scene  -->
              */}
-          {/* <div></div>
+        {/* <div></div>
         </div>
         <div class="stage stage3">
           <span>stage3: descripion about </span> */}
-          {/* <!-- pick 3 cards/ 3 cards layed out -->
+        {/* <!-- pick 3 cards/ 3 cards layed out -->
             <!-- modal for each card -->
                 <!-- modal had card title, picture, description -->
             <!-- modal  -->
@@ -51,8 +51,9 @@ class App extends Component {
         {/* </div>
         <div class="stage stage4">
           <span>stage4 </span> */}
-          {/* <!-- so mote it be --> */}
+        {/* <!-- so mote it be --> */}
         {/* </div> */}
+        <Candle />
       </div>
     );
   }
