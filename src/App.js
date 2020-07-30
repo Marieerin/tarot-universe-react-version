@@ -3,7 +3,6 @@ import './App.css';
 
 import Header from './Header';
 import Candle from './candle';
-import Stage from './stage'
 
 class App extends Component {
   constructor() {
@@ -12,7 +11,7 @@ class App extends Component {
       act: 3,
     }
   }
-  
+
   render() {
     return (
       <div className="App">
@@ -23,7 +22,6 @@ class App extends Component {
         <div className="stage">
           <span>This is the stage</span>
         </div>
-        <Stage />
 
         {/* <div class="stage stage1">
           <span>stage1: Hey heres the description</span> */}
