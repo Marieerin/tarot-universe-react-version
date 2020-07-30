@@ -18,6 +18,12 @@ class App extends Component {
         <div id="stars2"></div>
         <div id="stars3"></div>
         <Header />
+        <div className="stage">
+          <span>This is the stage</span>
+        </div>
+        {/* <StageOne />
+        <StageTwo />
+        <StageThree /> */}
         <Candle />
         {/* <div class="stage stage1">
           <span>stage1: Hey heres the description</span> */}
