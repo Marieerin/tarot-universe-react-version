@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/tarot-universe-react-version/static/css/main.bdda1a0c.chunk.css",
-    "main.js": "/tarot-universe-react-version/static/js/main.c5941d8b.chunk.js",
-    "main.js.map": "/tarot-universe-react-version/static/js/main.c5941d8b.chunk.js.map",
+    "main.js": "/tarot-universe-react-version/static/js/main.be23c30e.chunk.js",
+    "main.js.map": "/tarot-universe-react-version/static/js/main.be23c30e.chunk.js.map",
     "runtime-main.js": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js",
     "runtime-main.js.map": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js.map",
-    "static/js/2.12ecfc9b.chunk.js": "/tarot-universe-react-version/static/js/2.12ecfc9b.chunk.js",
-    "static/js/2.12ecfc9b.chunk.js.map": "/tarot-universe-react-version/static/js/2.12ecfc9b.chunk.js.map",
+    "static/js/2.a190d3c1.chunk.js": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js",
+    "static/js/2.a190d3c1.chunk.js.map": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js.map",
     "index.html": "/tarot-universe-react-version/index.html",
-    "precache-manifest.49506ca90917a5a22d41f56e065d2efa.js": "/tarot-universe-react-version/precache-manifest.49506ca90917a5a22d41f56e065d2efa.js",
+    "precache-manifest.cf052ec72dd8f89231e08c58c1ff0d0a.js": "/tarot-universe-react-version/precache-manifest.cf052ec72dd8f89231e08c58c1ff0d0a.js",
     "service-worker.js": "/tarot-universe-react-version/service-worker.js",
     "static/css/main.bdda1a0c.chunk.css.map": "/tarot-universe-react-version/static/css/main.bdda1a0c.chunk.css.map",
-    "static/js/2.12ecfc9b.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.12ecfc9b.chunk.js.LICENSE.txt"
+    "static/js/2.a190d3c1.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.a190d3c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f73fcd31.js",
-    "static/js/2.12ecfc9b.chunk.js",
+    "static/js/2.a190d3c1.chunk.js",
     "static/css/main.bdda1a0c.chunk.css",
-    "static/js/main.c5941d8b.chunk.js"
+    "static/js/main.be23c30e.chunk.js"
   ]
 }
