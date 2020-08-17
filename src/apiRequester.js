@@ -7,6 +7,7 @@ class ApiRequester extends Component {
       cardName: "",
       cardDescription: "",
       cardType: "",
+      cardNum: 0,
     };
   }
   cardRandomizer(){
@@ -24,6 +25,7 @@ class ApiRequester extends Component {
       cardName: response.cards[card].name,
       cardDescription: response.cards[card].meaning_up,
       cardType: response.cards[card].type,
+      cardNum: card,
     });
   };
   componentDidMount(){
@@ -32,8 +34,8 @@ class ApiRequester extends Component {
   render() {
     return(
         <li className="cardPlace">
+          <img src="../assets/11.jpg" alt=""/>
           <h2>{this.state.cardName}</h2>
-          <span></span>
         </li>
     ) 
   }

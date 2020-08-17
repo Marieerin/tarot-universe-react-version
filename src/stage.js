@@ -13,25 +13,24 @@ class Stage extends Component {
             // console.log(this.state.act);
         }
     }
-    componentDidUpdate() {
-        {
-          console.log(this.state.fruit);
-        }
-    }
     // counter changes stage with press of nav button
     // append appropriate components to stage displaying start, card reading
     // if counter is 
     render(){
         return (
-          <div>
-              <ul>
-                <ApiRequester />
-                <ApiRequester />
-                <ApiRequester />
-              </ul>
-            <button className="back" onClick={this.handleClick}>
-              back
-            </button>
+          <div className="stage">
+            <div className="act" id="introBlurb">
+
+            </div>
+            <ul className="act" id="cardTable">
+              <ApiRequester />
+              <ApiRequester />
+              <ApiRequester />
+            </ul>
+            
+            {/* <button className="back" onClick={this.handleClick}> */}
+              {/* back
+            </button> */}
             <button className="next" onClick={this.handleClick}>
               next
             </button>

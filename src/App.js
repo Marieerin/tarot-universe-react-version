@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-// import axios from "axios";
 import './App.css';
-import Stage from './stage'
-
 import Header from './Header';
+import Stage from './stage'
 import Candle from './candle';
 
 class App extends Component {
@@ -13,23 +11,28 @@ class App extends Component {
       act: 3,
     }
   }
+  // features to add
+  // on load prompt a motion sensativity button
+  // add accessable "tab through" option
+
   render() {
+    
     return (
       <div className="App">
+
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div id="stars4"></div>
+
         <Header />
-        <div className="stage">
-          <Stage />
-        </div>
+
+        <Stage />
 
         <Candle />
       </div>
-    );
+    )
   }
-  
 }
 
 export default App;
