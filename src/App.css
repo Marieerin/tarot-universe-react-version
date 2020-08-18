@@ -7,6 +7,7 @@
   justify-content: center;
   align-content: center;
   flex-flow: column nowrap;
+  margin: 50px;
 }
 
 /* STAR BACKGROUND */
@@ -105,6 +106,9 @@ html {
   }
 }
 /* HEADER */
+header {
+  height: calc(100vh/ 6);
+}
 h1 {
   font-size: 3.5rem;
   margin: 0;
@@ -115,19 +119,19 @@ header span {
 
 /* STAGE/BODY */
 .stage {
-    width: 100%;
+    height: calc(100vh / 3);
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 #cardTable {
-  /* background-color: rgba(170, 27, 253, 0.5), */
-  background-color:  radial-gradient(circle, rgba(110, 195, 252, 0.5), rgba(170, 27, 253, 0.5));
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: space-between;
 }
 .cardPlace { 
   display: flex;
@@ -137,16 +141,18 @@ header span {
 }
 .cardPlace h2 {
   margin: 19.9167px;
+  font-size: 1rem;
 }
 .cardPlace img {
-  width: calc(100% - 5vw);
+  width: calc(90vw / 8);
   margin-top: 19.9167px;
+  box-shadow: 0px -10px 10px black, inset 50px 50px 0px #00ff87;
 }
 /* CANDLE */
 .holder {
-    margin: 12rem auto 0;
+    margin: 14rem auto 0;
     width: 150px;
-    height: 150px;
+    height: 75px;
     position: relative;
 }
 .holder *, .holder *:before, .holder *:after {
@@ -155,10 +161,9 @@ header span {
 }
 .candle {
     bottom: 0;
-    width: 150px;
-    height: 160px;
+    width: calc(150px - 1vw);
+    height: calc(160px - 1vw);
     border-radius: 127px / 53px;
-
     background: linear-gradient(#e48825, #e78e0e, #6c3101, #0e0e460a);
 }
 .candle:before {
@@ -238,8 +243,8 @@ header span {
     background: rgba(0, 0, 0, 0.35);
 }
 .blinking-glow {
-    width: 100px;
-    height: 180px;
+    width: calc(100px - 1vw);
+    height: calc(180px - 1vw);
     left: 50%;
     top: -55%;
     transform: translateX(-50%);

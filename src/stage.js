@@ -23,7 +23,7 @@ class Stage extends Component {
 
             </div>
             <ul className="act" id="cardTable">
-              <ApiRequester />
+              <ApiRequester  />
               <ApiRequester />
               <ApiRequester />
             </ul>
