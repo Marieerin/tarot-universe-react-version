@@ -32,12 +32,13 @@ class ApiRequester extends Component {
     this.cardRandomizer();
   };
   render() {
-    return(
-        <li className="cardPlace">
-          <img src="../assets/11.jpg" alt=""/>
-          <h2>{this.state.cardName}</h2>
-        </li>
-    ) 
+    return (
+      <li className="cardPlace">
+        {/* images sourced from https://en.m.wikipedia.org/wiki/Rider-Waite_tarot_deck#/search */}
+        <img src={require(`./assets/${this.state.cardNum}.jpg`)} />
+        <h2>{this.state.cardName}</h2>
+      </li>
+    ); 
   }
 };
 export default ApiRequester;
