@@ -20,20 +20,20 @@ class Stage extends Component {
         return (
           <div className="stage">
             <div className="act" id="introBlurb">
-
+              <span></span>
             </div>
             <ul className="act" id="cardTable">
-              <ApiRequester  />
-              <ApiRequester />
-              <ApiRequester />
+              <ApiRequester tense2="past" />
+              <ApiRequester tense2="present" />
+              <ApiRequester tense2="future" />
             </ul>
-            
+
             {/* <button className="back" onClick={this.handleClick}> */}
-              {/* back
+            {/* back
             </button> */}
-            <button className="next" onClick={this.handleClick}>
+            <div className="next" onClick={this.handleClick}>
               next
-            </button>
+            </div>
           </div>
         );
     }

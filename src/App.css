@@ -105,6 +105,7 @@ html {
     opacity: 0;
   }
 }
+
 /* HEADER */
 header {
   height: calc(100vh/ 6);
@@ -132,6 +133,7 @@ header span {
   margin: 0;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .cardPlace { 
   display: flex;
@@ -140,14 +142,42 @@ header span {
   align-items: center;
 }
 .cardPlace h2 {
-  margin: 19.9167px;
+  margin: 10px;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 .cardPlace img {
   width: calc(90vw / 8);
-  margin-top: 19.9167px;
-  box-shadow: 0px -10px 10px black, inset 50px 50px 0px #00ff87;
+  /* box-shadow: 0px -10px 10px black, inset 50px 50px 0px #00ff87; */
+  filter: saturate(117%) contrast(130%);
 }
+.tense2{
+  margin: 10px;
+  text-transform: uppercase;
+}
+.present {
+  margin: 0 50px;
+}
+.cardInstruction {
+  position: absolute;
+  bottom: -31px;
+  right: 9px;
+  width: 100px;
+  background-color: #e27a07;
+  border-radius: 50%;
+  background: radial-gradient(#ff000073, #0000008a);
+}
+
+/* MODAL */
+.modal {
+  z-index: 3;
+  background-color: green;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+}
+
+
 /* CANDLE */
 .holder {
     margin: 14rem auto 0;

@@ -28,7 +28,7 @@ class Candle extends Component {
     // }
     render() {
         return (
-          <div>
+          
             <div className="holder">
               {/* <!-- html/css for candle was taken and adapted from https://www.youtube.com/watch?v=W3HwYLZEoCI  --> */}
               <div className="candle">
@@ -38,7 +38,7 @@ class Candle extends Component {
                 <div className={this.state.flame} id="flame"></div>
               </div>
             </div>
-          </div>
+          
         );
     }
 }
