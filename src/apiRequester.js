@@ -35,7 +35,7 @@ class ApiRequester extends Component {
   }
   showModal = (e) => {
     this.setState({
-      show: true,
+      show: !this.state.show,
     });
   };
   render() {
@@ -52,8 +52,8 @@ class ApiRequester extends Component {
           onClick={(e) => {
             this.showModal();
           }}
-        >Show Modal</a>
-        <Modal show={this.state.show} />
+        >learn more...</a>
+        <Modal onClose={this.showModal} show={this.state.show}  />
       </li>
     );
   }

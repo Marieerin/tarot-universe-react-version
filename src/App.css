@@ -7,7 +7,7 @@
   justify-content: center;
   align-content: center;
   flex-flow: column nowrap;
-  margin: 50px;
+  margin: 20px;
 }
 
 /* STAR BACKGROUND */
@@ -108,7 +108,7 @@ html {
 
 /* HEADER */
 header {
-  height: calc(100vh/ 6);
+  height: calc(100vh/ 8);
 }
 h1 {
   font-size: 3.5rem;
@@ -120,7 +120,7 @@ header span {
 
 /* STAGE/BODY */
 .stage {
-    height: calc(100vh / 3);
+    height: calc(100vh / 2.2);
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -131,7 +131,6 @@ header span {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
   justify-content: space-between;
   position: relative;
 }
@@ -151,6 +150,11 @@ header span {
   /* box-shadow: 0px -10px 10px black, inset 50px 50px 0px #00ff87; */
   filter: saturate(117%) contrast(130%);
 }
+.cardPlace a {
+  text-decoration: underline;
+  font-weight: light;
+  color: rgb(58, 150, 255);
+}
 .tense2{
   margin: 10px;
   text-transform: uppercase;
@@ -167,20 +171,42 @@ header span {
   border-radius: 50%;
   background: radial-gradient(#ff000073, #0000008a);
 }
+.visible{
+  display: flex!important;
+}
+.hidden{
+  display: none!important;
+}
+
 
 /* MODAL */
 .modal {
   z-index: 3;
-  background-color: green;
-  height: 300px;
-  width: 500px;
+  background-color: white;
+  /* background: (conic-gradient(red, orange, yellow, green, blue 50%)); */
+  height: 41vh;
+  width: 56vw;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 50px azure,
+  inset 0 -10px 50px rgba(100, 92, 205, 0.548);
+  border-radius: 30px;
+}
+.modal button {
+  color: rgba(0, 0, 255, 0);
+  position: absolute;
+  z-index: 2;
+
+
 }
 
 
 /* CANDLE */
 .holder {
-    margin: 14rem auto 0;
+    margin: 12rem auto 0;
     width: 150px;
     height: 75px;
     position: relative;

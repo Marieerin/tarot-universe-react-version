@@ -8,7 +8,6 @@ class App extends Component {
   constructor() {
     super();
     this.state= {
-      act: 3,
     }
   }
   // features to add
