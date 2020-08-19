@@ -127,6 +127,13 @@ header span {
     align-items: center;
     flex-direction: column;
 }
+#navButton {
+  background-color: white;
+  color: #1b2735;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 10px;
+}
 #cardTable {
   list-style: none;
   padding: 0;

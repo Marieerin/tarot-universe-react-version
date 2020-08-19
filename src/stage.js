@@ -7,26 +7,27 @@ class Stage extends Component {
         this.state = {
           act: "cardTable",
           introBlurb: "visible",
-          cardTable: "hidden"
+          cardTable: "hidden",
+          navText: "Go",
         }
     }
     handleClick(e){
-        console.log(e.target.className);
         if(e.target.className === "cardTable") {
           // console.log(this.state.act);
           this.setState({
             act: "introBlurb",
             introBlurb: "hidden",
             cardTable: "visible",
+            navText:"Restart"
           })
         } else if (e.target.className === "introBlurb") {
           this.setState({
             act: "cardTable",
             introBlurb: "visible",
             cardTable: "hidden",
+            navText: "Go",
           });
         }
-        console.log(this.state.act);
     }
     // counter changes stage with press of nav button
     // append appropriate components to stage displaying start, card reading
@@ -43,17 +44,16 @@ class Stage extends Component {
               <ApiRequester tense2="future" />
             </ul>
 
-            {/* <button className="back" onClick={this.handleClick}> */}
-            {/* back
-            </button> */}
-            <div
+            {/* I want to add this to the button https://joshwcomeau.com/react/animated-sparkles-in-react/ */}
+            <button
               className={this.state.act}
               onClick={(e) => {
                 this.handleClick(e);
               }}
+              id="navButton"
             >
-              next
-            </div>
+              {this.state.navText}
+            </button>
           </div>
         );
     }
