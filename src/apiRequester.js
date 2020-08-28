@@ -4,10 +4,7 @@ class ApiRequester extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cardName: `fool`,
-      cardDescription: "You have been foiled ",
-      cardType: "none",
-      cardNum: 0,
+      show: "",
     };
   }
 
@@ -37,6 +34,7 @@ class ApiRequester extends Component {
             <Modal
               onClose={this.showModal}
               show={this.state.show}
+              cardNum={this.props.cardNum}
               cardName={this.props.card.name}
               cardDescription={this.props.card.meaning_up}
               cardType={this.props.card.type}

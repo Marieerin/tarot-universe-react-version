@@ -1,3 +1,14 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
 
 /* STYLE KEY */
@@ -24,8 +35,16 @@ dark blue - #1b2735
   align-content: center;
   flex-flow: column nowrap;
   margin: 20px;
-  height: 100vh;
+  height: 95vh;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+h1, 
+h2,
+h3,
+.modal span {
+  font-family: 'Kaushan Script', cursive;
+}
+
 
 /* STAR BACKGROUND */
 /* code from   https://codepen.io/saransh/pen/BKJun */
@@ -184,7 +203,8 @@ header span {
     align-items: center;
     flex-direction: column;
 }
-#navButton {
+#navButton,
+.modal button {
   background-color: #ffffff;
   color: #1b2735;
   border-radius: 50%;
@@ -218,7 +238,7 @@ header span {
   left: 0;
   right: 0;
 
-  /* height: 41vh; */
+  height: 41vh;
   width: 400px;
   z-index: 3;
   padding: 20px;
@@ -228,12 +248,25 @@ header span {
   color: #000000;
   border-radius: 2px;
   text-align: left;
+  box-shadow: 1px 1px 1000px #000000c5, inset -10px -10px 100px #5b3f192e,inset -5px -5px 5px #fa90001f, inset 10px 10px 50px #fffdf4e0;
+  border: 1.5px solid #baa890;
+  border-top: none;
+  border-left: none;
 }
 .modal span {
   font-style: italic;
 }
 .modal p:first-of-type{
   text-transform: capitalize;
+}
+.modal h3 {
+  text-decoration: underline double #808080a3;
+}
+
+.modalImage {
+  float: left;
+  margin-top: 18px;
+  margin-right: 18px;
 }
 
 /* CANDLE */
@@ -253,6 +286,7 @@ header span {
     height: calc(160px - 1vw);
     border-radius: 127px / 53px;
     background: linear-gradient(#e48825, #e78e0e, #6c3101, #0e0e460a);
+    box-shadow: 1px 1px 20px #00000075;
 }
 .candle:before {
     width: 87%;
@@ -346,5 +380,34 @@ header span {
     50% { 
       opacity: .8; 
     }
+}
+
+@media only screen and (max-width: 400px) {
+  .App {
+    margin: 0;
+  }
+  header {
+    height: auto;
+  }
+  #cardTable li {
+    padding: 0 3px;
+  }
+  .cardPlace img,
+  .cardPlace h2 {
+    width: calc(90vw / 4);
+  }
+  .modal img {
+    width: calc(90vw / 2);
+  }
+  .modal {
+    left: -34%;
+    right: -34%;
+    height: 57vh;
+    width: 94vw;
+    overflow-y: scroll;
+  }
+  .holder {
+    display: none;
+  }
 }
 
