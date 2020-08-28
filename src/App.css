@@ -37,6 +37,7 @@ dark blue - #1b2735
   margin: 20px;
   height: 95vh;
   font-family: 'Open Sans Condensed', sans-serif;
+  overflow: hidden;
 }
 h1, 
 h2,
