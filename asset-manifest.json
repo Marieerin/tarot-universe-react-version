@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tarot-universe-react-version/static/css/main.cd8fd89c.chunk.css",
-    "main.js": "/tarot-universe-react-version/static/js/main.c82e5113.chunk.js",
-    "main.js.map": "/tarot-universe-react-version/static/js/main.c82e5113.chunk.js.map",
+    "main.js": "/tarot-universe-react-version/static/js/main.2afea062.chunk.js",
+    "main.js.map": "/tarot-universe-react-version/static/js/main.2afea062.chunk.js.map",
     "runtime-main.js": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js",
     "runtime-main.js.map": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js.map",
     "static/js/2.b2469147.chunk.js": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js",
     "static/js/2.b2469147.chunk.js.map": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js.map",
     "index.html": "/tarot-universe-react-version/index.html",
-    "precache-manifest.55dc13da13ae9e2e74e12bec3cffebe9.js": "/tarot-universe-react-version/precache-manifest.55dc13da13ae9e2e74e12bec3cffebe9.js",
+    "precache-manifest.dd0a1669a3a24abd0fc5480cc075822a.js": "/tarot-universe-react-version/precache-manifest.dd0a1669a3a24abd0fc5480cc075822a.js",
     "service-worker.js": "/tarot-universe-react-version/service-worker.js",
     "static/css/main.cd8fd89c.chunk.css.map": "/tarot-universe-react-version/static/css/main.cd8fd89c.chunk.css.map",
     "static/js/2.b2469147.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js.LICENSE.txt",
@@ -95,6 +95,6 @@
     "static/js/runtime-main.f73fcd31.js",
     "static/js/2.b2469147.chunk.js",
     "static/css/main.cd8fd89c.chunk.css",
-    "static/js/main.c82e5113.chunk.js"
+    "static/js/main.2afea062.chunk.js"
   ]
 }
