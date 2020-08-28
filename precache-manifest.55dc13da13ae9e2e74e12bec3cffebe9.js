@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6e8a9e1455075943fbedc83ee672ff1",
+    "revision": "f8b00716f338894b5b3d6f8b92b61d0f",
     "url": "/tarot-universe-react-version/index.html"
   },
   {
-    "revision": "14da463951686cb4af4d",
-    "url": "/tarot-universe-react-version/static/css/main.129fc6b5.chunk.css"
+    "revision": "14d48ac913f219e4ab5f",
+    "url": "/tarot-universe-react-version/static/css/main.cd8fd89c.chunk.css"
   },
   {
-    "revision": "d18e927d7f56115aed77",
-    "url": "/tarot-universe-react-version/static/js/2.ed661956.chunk.js"
+    "revision": "8764c42660702399e7c5",
+    "url": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/tarot-universe-react-version/static/js/2.ed661956.chunk.js.LICENSE.txt"
+    "url": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14da463951686cb4af4d",
-    "url": "/tarot-universe-react-version/static/js/main.43c785cc.chunk.js"
+    "revision": "14d48ac913f219e4ab5f",
+    "url": "/tarot-universe-react-version/static/js/main.c82e5113.chunk.js"
   },
   {
     "revision": "ca99f404585f52124fb9",
