@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+/* STYLE KEY */
+/*     
+__FONTS
+font-family: 'Kaushan Script', cursive;
+font-family: 'Open Sans Condensed', sans-serif; 
+
+__COLORS
+White - #ffffff
+Black - #000000
+light blue - #3a96ff
+dark blue - #1b2735
+**not every color used... that would be insanity**
+
+*/
 
 /* GLOBAL */
 .App {
   text-align: center;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: column nowrap;
   margin: 20px;
+  height: 100vh;
 }
 
 /* STAR BACKGROUND */
@@ -82,7 +99,6 @@ html {
   height: 1px;
   background: transparent;
 }
-
 @keyframes animStar {
   from {
     transform: translateY(0px);
@@ -118,28 +134,16 @@ header span {
   font-style: italic;
 }
 
-/* STAGE/BODY */
-.stage {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#navButton {
-  background-color: white;
-  color: #1b2735;
-  border-radius: 50%;
-  padding: 15px;
-  margin-top: 10px;
-  box-shadow: 0 2px 4px #1b2735;
-}
+/* CARD TABLE */
 #cardTable {
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   position: relative;
+}
+#cardTable li{
+  display: inline-block;
 }
 .cardPlace { 
   display: flex;
@@ -149,8 +153,9 @@ header span {
 }
 .cardPlace h2 {
   margin: 10px;
-  font-size: 1rem;
+  font-size: .75rem;
   text-transform: uppercase;
+  width: calc(90vw / 8);
 }
 .cardPlace img {
   width: calc(90vw / 8);
@@ -161,7 +166,7 @@ header span {
 .cardPlace a {
   text-decoration: underline;
   font-weight: light;
-  color: rgb(58, 150, 255);
+  color: #3a96ff;
 }
 .tense2{
   margin: 10px;
@@ -170,20 +175,39 @@ header span {
 .present {
   margin: 0 50px;
 }
-.cardInstruction {
-  position: absolute;
-  bottom: -31px;
-  right: 9px;
-  width: 100px;
-  background-color: #e27a07;
+
+/* STAGE/BODY */
+.stage {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#navButton {
+  background-color: #ffffff;
+  color: #1b2735;
   border-radius: 50%;
-  background: radial-gradient(#ff000073, #0000008a);
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px #1b2735;
 }
-.visible{
-  display: flex!important;
+.visible {
+  /* display: flex!important; */
+  opacity: 1;
+  /* transition: opacity 5s cubic-bezier(0.12, 0.67, 0.88, 0.29); */
 }
-.hidden{
-  display: none!important;
+.hidden {
+  /* display: none!important; */
+  opacity: 0;
+  /* transition: display 5s; */
+}
+#introBlurb{
+  position: absolute;
+}
+#introBlurb,
+#cardTable {
+    transition: opacity 1s linear;
 }
 
 /* MODAL */
@@ -200,8 +224,8 @@ header span {
   padding: 20px;
   margin: auto;
 
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 2px;
   text-align: left;
 }
@@ -268,7 +292,7 @@ header span {
     bottom: 100%;
     border-radius: 50% 50% 20% 20%;
 
-    background: linear-gradient(white 80%, transparent);
+    background: linear-gradient(#ffffff 80%, transparent);
     animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
 }
 @keyframes moveFlame {
@@ -294,8 +318,8 @@ header span {
     left: 50%;
     top: -48px;
     transform: translateX(-50%);
-    background: rgba(0, 133, 255, 0.43);
-    box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c,inset 3px 0 2px 0 rgba(0, 133, 255, 0.29), inset -3px 0 2px 0 rgba(0, 133, 255, 0.1);
+    background: #0085ff6e;
+    box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c,inset 3px 0 2px 0 #0085ff4a, inset -3px 0 2px 0 #0085ff1a;
 }
 .glow:before {
     width: 70%;
@@ -304,7 +328,7 @@ header span {
     transform: translateX(-50%);
     bottom: 0;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.35);
+    background: #00000059;
 }
 .blinking-glow {
     width: calc(100px - 1vw);

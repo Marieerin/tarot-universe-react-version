@@ -4,6 +4,7 @@ import Header from './Header';
 import Stage from './stage'
 import Candle from './candle';
 
+
 class App extends Component {
   constructor() {
     super();
@@ -11,7 +12,7 @@ class App extends Component {
     }
   }
   // features to add
-  // on load prompt a motion sensativity button
+  // on load prompt a motion sensativity option
   // add accessable "tab through" option
 
   render() {

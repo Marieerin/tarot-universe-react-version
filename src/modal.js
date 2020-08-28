@@ -6,15 +6,16 @@ class Modal extends Component{
         this.state = {
             
         };
-    }
-    onClose = e => {
+    };
+    onClose = () => {
         this.props.show = false;
-    }
+    };
     render() {
         /* guidance on how to create from https://blog.bitsrc.io/build-a-simple-modal-component-with-react-16decdc111a6 */
-        if(!this.props.show){
+        if(!this.props.show) {
             return null;
         }
+
         return (
           <div className="modal">
             <div className="modalContent">
@@ -33,6 +34,6 @@ class Modal extends Component{
             </div> 
           </div>
         );
-    }
-}
+    };
+};
 export default Modal; 
