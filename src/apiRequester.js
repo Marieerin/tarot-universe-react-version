@@ -22,7 +22,9 @@ class ApiRequester extends Component {
           <div className="cardPlace">
             <span className="tense2">{this.props.tense2}</span>
             {/* images sourced from https://en.m.wikipedia.org/wiki/Rider-Waite_tarot_deck#/search */}
-            <img src={require(`./assets/${this.props.cardNum}.jpg`)} />
+            <img onClick={() => {
+                this.showModal();
+              }} src={require(`./assets/${this.props.cardNum}.jpg`)} />
             <h2>{this.props.card.name}</h2>
             <a
               onClick={() => {
