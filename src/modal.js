@@ -18,10 +18,14 @@ class Modal extends Component{
         }
 
         return (
-          <div className="modal">
+          <div
+            className="modal"
+            onClick={(e) => {
+              this.props.onClose(e);
+            }}
+          >
             <div className="modalImage">
-
-                <img src={require(`./assets/${this.props.cardNum}.jpg`)} />
+              <img src={require(`./assets/${this.props.cardNum}.jpg`)} />
             </div>
             <div className="modalContent">
               <h3>{this.props.cardName}</h3>
