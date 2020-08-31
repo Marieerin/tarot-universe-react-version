@@ -205,8 +205,7 @@ header span {
     align-items: center;
     flex-direction: column;
 }
-#navButton,
-.modal button {
+#navButton {
   background-color: #ffffff;
   color: #1b2735;
   border-radius: 50%;
@@ -226,14 +225,20 @@ header span {
 }
 #introBlurb{
   position: absolute;
+  top: 18%;
+
 }
 #introBlurb,
 #cardTable {
     transition: opacity 1s linear;
 }
+#introBlurb p {
+  width: calc(100vw * .75);
+}
 
 /* MODAL */
 .modal {
+  overflow-y: scroll;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -255,6 +260,9 @@ header span {
   border-top: none;
   border-left: none;
 }
+.modal img {
+  width: 105px!important;
+}
 .modal span {
   font-style: italic;
 }
@@ -262,16 +270,11 @@ header span {
   text-transform: capitalize;
 }
 .modal h3 {
+  margin-top: 0;
   text-decoration: underline double #808080a3;
 }
-.modal button {
-  margin: 15px 0 20px;
-  display: none;
-}
-
 .modalImage {
   float: left;
-  margin-top: 18px;
   margin-right: 18px;
 }
 
@@ -402,15 +405,11 @@ header span {
   .cardPlace h2 {
     width: calc(90vw / 4);
   }
-  .modal img {
-    width: calc(90vw / 2);
-  }
   .modal {
     left: -34%;
     right: -34%;
     height: 57vh;
     width: 94vw;
-    overflow-y: scroll;
   }
   .holder {
     display: none;

@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 
 class Modal extends Component{
-    constructor(){
-        super()
-        this.state = {
-            
-        };
-    };
+
     onClose = () => {
         this.props.show = false;
     };
@@ -33,13 +28,6 @@ class Modal extends Component{
               <p>{this.props.cardType} Archana</p>
               <span>Description</span>
               <p>{this.props.cardDescription}</p>
-              <button
-                onClick={(e) => {
-                  this.props.onClose(e);
-                }}
-              >
-                Close
-              </button>
             </div>
           </div>
         );

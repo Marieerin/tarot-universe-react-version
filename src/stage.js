@@ -69,7 +69,7 @@ class Stage extends Component {
       <div className="stage">
 
         <div className={this.state.introBlurb} id="introBlurb">
-          <span>i am the intro</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius, adipisci ducimus ea optio quaerat rem. Porro at deserunt dignissimos tempora, impedit natus animi odio distinctio facilis quod laborum alias?Maxime at distinctio, doloremque maiores, beatae, provident repellat repellendus totam cupiditate quibusdam qui praesentium. Magni, vitae, fugit ipsam sapiente totam ad consequuntur earum cum natus enim deleniti distinctio sint accusantium!</p>
         </div>
 
         <ul className={this.state.cardTable} id="cardTable">
