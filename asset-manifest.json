@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tarot-universe-react-version/static/css/main.a101849e.chunk.css",
-    "main.js": "/tarot-universe-react-version/static/js/main.94059606.chunk.js",
-    "main.js.map": "/tarot-universe-react-version/static/js/main.94059606.chunk.js.map",
+    "main.css": "/tarot-universe-react-version/static/css/main.d9d197c6.chunk.css",
+    "main.js": "/tarot-universe-react-version/static/js/main.f2974b59.chunk.js",
+    "main.js.map": "/tarot-universe-react-version/static/js/main.f2974b59.chunk.js.map",
     "runtime-main.js": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js",
     "runtime-main.js.map": "/tarot-universe-react-version/static/js/runtime-main.f73fcd31.js.map",
     "static/js/2.b2469147.chunk.js": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js",
     "static/js/2.b2469147.chunk.js.map": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js.map",
     "index.html": "/tarot-universe-react-version/index.html",
-    "precache-manifest.fceb26ea96aa082ca8be7927cfb9221a.js": "/tarot-universe-react-version/precache-manifest.fceb26ea96aa082ca8be7927cfb9221a.js",
+    "precache-manifest.e316f0e1aea732c1fb74e3eb9bb229b5.js": "/tarot-universe-react-version/precache-manifest.e316f0e1aea732c1fb74e3eb9bb229b5.js",
     "service-worker.js": "/tarot-universe-react-version/service-worker.js",
-    "static/css/main.a101849e.chunk.css.map": "/tarot-universe-react-version/static/css/main.a101849e.chunk.css.map",
+    "static/css/main.d9d197c6.chunk.css.map": "/tarot-universe-react-version/static/css/main.d9d197c6.chunk.css.map",
     "static/js/2.b2469147.chunk.js.LICENSE.txt": "/tarot-universe-react-version/static/js/2.b2469147.chunk.js.LICENSE.txt",
     "static/media/0.jpg": "/tarot-universe-react-version/static/media/0.09bcef9a.jpg",
     "static/media/1.jpg": "/tarot-universe-react-version/static/media/1.2303bec9.jpg",
@@ -94,7 +94,7 @@
   "entrypoints": [
     "static/js/runtime-main.f73fcd31.js",
     "static/js/2.b2469147.chunk.js",
-    "static/css/main.a101849e.chunk.css",
-    "static/js/main.94059606.chunk.js"
+    "static/css/main.d9d197c6.chunk.css",
+    "static/js/main.f2974b59.chunk.js"
   ]
 }
