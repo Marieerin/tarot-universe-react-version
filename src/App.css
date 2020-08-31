@@ -225,8 +225,7 @@ header span {
 }
 #introBlurb{
   position: absolute;
-  top: 18%;
-
+  top: 40%;
 }
 #introBlurb,
 #cardTable {
@@ -391,7 +390,7 @@ header span {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px){
   .App {
     margin: 0;
   }
@@ -414,5 +413,12 @@ header span {
   .holder {
     display: none;
   }
+}
+
+@media only screen and (max-height: 779px) {
+  .holder {
+    display: none;
+  }
+
 }
 
