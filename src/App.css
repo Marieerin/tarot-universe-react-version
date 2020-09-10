@@ -11,11 +11,16 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,900&display=swap');
+
 /* STYLE KEY */
 /*     
 __FONTS
 font-family: 'Kaushan Script', cursive;
 font-family: 'Open Sans Condensed', sans-serif; 
+font-family: 'Playfair Display', serif;
+  Bold 700
+  Black 900 italic
 
 __COLORS
 White - #ffffff
@@ -43,7 +48,7 @@ h1,
 h2,
 h3,
 .modal span {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -150,6 +155,8 @@ h1 {
   font-size: 2.5rem;
   margin: 0;
   text-shadow: 1px 1px 0 #b08852;
+  font-weight: 900;
+  font-style: italic;
 }
 header span {
   font-style: italic;
@@ -225,7 +232,7 @@ header span {
 }
 #introBlurb{
   position: absolute;
-  top: 40%;
+  top: 25vh;
 }
 #introBlurb,
 #cardTable {
@@ -233,6 +240,15 @@ header span {
 }
 #introBlurb p {
   width: calc(100vw * .75);
+}
+#introBlurb span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#introBlurb h3 {
+  font-weight: 600;
+  font-style: italic;
+  color: #e48825;
 }
 
 /* MODAL */
@@ -390,6 +406,19 @@ header span {
     }
 }
 
+@media only screen and (min-height: 740px){
+  #introBlurb {
+    top: 21%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .cardPlace img,
+  .cardPlace h2 {
+    width: calc(90vw / 4);
+  }
+}
+
 @media only screen and (max-width: 400px){
   .App {
     margin: 0;
@@ -397,12 +426,11 @@ header span {
   header {
     height: auto;
   }
+  #introBlurb {
+    top: 33%;
+  }
   #cardTable li {
     padding: 0 3px;
-  }
-  .cardPlace img,
-  .cardPlace h2 {
-    width: calc(90vw / 4);
   }
   .modal {
     left: -34%;

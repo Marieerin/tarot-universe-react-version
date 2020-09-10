@@ -69,7 +69,21 @@ class Stage extends Component {
       <div className="stage">
 
         <div className={this.state.introBlurb} id="introBlurb">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius, adipisci ducimus ea optio quaerat rem. Porro at deserunt dignissimos tempora, impedit natus animi odio distinctio facilis quod laborum alias?Maxime at distinctio, doloremque maiores, beatae, provident repellat repellendus totam cupiditate quibusdam qui praesentium. Magni, vitae, fugit ipsam sapiente totam ad consequuntur earum cum natus enim deleniti distinctio sint accusantium!</p>
+          <h3>
+            Come join me for a Tarot reading.
+          </h3>
+          <p>
+            Find guidance on the past, present and future. 
+          </p>
+          <p>
+            Take a few deep breaths, and sit quietly for a moment. Try to clear your mind, and relax before approaching the cards.
+          </p>
+          <p>
+            During these moments ask for some kind of guidance. Don't be vague, think of something specific. You can request the cards to reveal information which will help you to resolve difficulties in the most positive way. Speak through the cards, and clarify matters requiring your attention.
+          </p>
+          <p>
+            When you are ready press <span>go</span>
+          </p>
         </div>
 
         <ul className={this.state.cardTable} id="cardTable">
